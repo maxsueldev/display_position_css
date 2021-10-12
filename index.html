@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Display no CSS</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h3>display</h3>
+        <ul>
+          <li>inline</li>
+          <li>não deixa definir</li>
+          <li>width/height!</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <div class="container">
+      <ul class="list-of-cards">
+        <li>
+          <div class="card">
+            <div class="box-card first-card">
+              <img src="./assets/images/card.jpg" alt="imagem do card">
+            </div>
+            <div class="box-card">
+              <h3>display: inline-block;</h3>
+              <p>O elemento passa a ter o tamanho exato dele e não mais o de bloco como era com o padão display block
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="box-card">
+              <img src="./assets/images/card.jpg" alt="imagem do card">
+            </div>
+            <div class="box-card">
+              <h3>display: inline-block;</h3>
+              <p>Permite se definir uma altura e largura para os elementos.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="box-card">
+              <img src="./assets/images/card.jpg" alt="imagem do card">
+            </div>
+            <div class="box-card">
+              <h3>display: inline-block;</h3>
+              <p>Com esse elemento de bloco, não funcionaria o uso do display inline</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <form>
+        <input class="submit" type="submit" value="Enviar">
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
